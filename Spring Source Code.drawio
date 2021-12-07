@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:15:47.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eQeDixdSTco4-hLJ4laM" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:36:27.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4YL0uikIUMdFbqNjhuEY" version="15.9.1" type="github">
   <diagram id="5bXE4xTqYzLnT9e2FAJP" name="Page-1">
-    <mxGraphModel dx="1166" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1166" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,7 +144,7 @@
         <mxCell id="pUO6GWOM3R9rbuqNOI-t-13" value="分配内存，属性值默认值" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1530" y="20" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pUO6GWOM3R9rbuqNOI-t-14" value="1、属性赋值&lt;br&gt;2、执行init方法&lt;br&gt;3、扩展实现" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="pUO6GWOM3R9rbuqNOI-t-14" value="1、属性赋值&lt;br&gt;2、执行init方法&lt;br&gt;3、扩展实现" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry x="1530" y="110" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OgK02bte-RmBjo9xv8Qo-43" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
@@ -285,6 +285,42 @@
         </mxCell>
         <mxCell id="OgK02bte-RmBjo9xv8Qo-45" value="Bean的生命周期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="740" y="595" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YoO8cPl0I0-nQRaHSWS8-1" target="YoO8cPl0I0-nQRaHSWS8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-1" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YoO8cPl0I0-nQRaHSWS8-2" target="YoO8cPl0I0-nQRaHSWS8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YoO8cPl0I0-nQRaHSWS8-2" target="YoO8cPl0I0-nQRaHSWS8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-2" value="FactoryBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-3" value="isSingleton：判断是否是单例对象&lt;br&gt;getObjectType:获取对象类型&lt;br&gt;getObject:用户可以按照自己任意的方式来创建对象" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1640" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YoO8cPl0I0-nQRaHSWS8-4" target="YoO8cPl0I0-nQRaHSWS8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YoO8cPl0I0-nQRaHSWS8-4" target="YoO8cPl0I0-nQRaHSWS8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-4" value="都是用来创建对象的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-7" value="BeanFactory标准化流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1460" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-8" value="FactoryBean私人定制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1540" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YoO8cPl0I0-nQRaHSWS8-12" value="源码方法论：&lt;br&gt;1、不要忽略源码中的注释&lt;br&gt;2、先梳理脉络，再扣细节&lt;br&gt;3、大胆猜测，小心验证&lt;br&gt;4、见名知意&lt;br&gt;5、使用插件(translate)&lt;br&gt;6、坚持看，坚持看，坚持看" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1790" width="330" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
