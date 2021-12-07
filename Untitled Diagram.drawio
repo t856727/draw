@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T06:59:23.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="UMcaBrKaTMn1PUY2UsX2" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T07:08:31.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="gU4iQMOkL9j1GdqSW57i" version="15.9.1" type="github">
   <diagram id="5bXE4xTqYzLnT9e2FAJP" name="Page-1">
-    <mxGraphModel dx="1166" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1458" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,13 +66,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IAGBV2r32qKXG1FyeT6h-35" value="PostProcessor&lt;br&gt;（后置处理器、增强器）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="160" height="60" as="geometry" />
+          <mxGeometry x="40" y="770" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="IAGBV2r32qKXG1FyeT6h-36" target="IAGBV2r32qKXG1FyeT6h-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IAGBV2r32qKXG1FyeT6h-36" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="300" y="610" width="160" height="60" as="geometry" />
+          <mxGeometry x="300" y="740" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IAGBV2r32qKXG1FyeT6h-37" value="BeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="300" y="680" width="160" height="60" as="geometry" />
+          <mxGeometry x="300" y="810" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;entryX=0.4;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IAGBV2r32qKXG1FyeT6h-41" target="IAGBV2r32qKXG1FyeT6h-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-41" value="beanFactory" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-42" value="applicationContext（beanFactory的子类）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="IAGBV2r32qKXG1FyeT6h-44" target="IAGBV2r32qKXG1FyeT6h-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-44" value="BeanDefinitionRegistryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="740" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="IAGBV2r32qKXG1FyeT6h-46" target="IAGBV2r32qKXG1FyeT6h-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-46" value="ConfigurationClassPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="830" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IAGBV2r32qKXG1FyeT6h-48" value="Springboot自动装配原理" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="970" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
